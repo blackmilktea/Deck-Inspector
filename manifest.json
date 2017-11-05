@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Deck Inspector",
+  "description": "デッキを見やすく、警戒します",
+  "version": "1.0.0",
+  "content_scripts": [{
+    "matches": [
+      "http://*.idolwars.jp/guild/deck_view_*_member/*"
+    ],
+    "css": ["style.css"],
+    "js": ["jquery-3.2.1.min.js", "contentScript.js"],
+    "run_at": "document_end"
+  }],
+  "permissions": ["http://*.idolwars.jp/guild/deck_view_*_member/*"]
+}

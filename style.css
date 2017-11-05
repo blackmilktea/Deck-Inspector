@@ -1,0 +1,50 @@
+li a {
+  width: 130px;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+body {
+  user-select: auto !important;
+}
+
+* {
+  vertical-align: middle !important;
+}
+
+h4 {
+  display: none
+}
+
+.guild-deck-inner {
+  width: 100% !important;
+}
+
+.guild-deck-detail {
+  margin: 2px !important;
+}
+
+.card-name>span {
+  display: inline-block;
+}
+
+.card-name>span:nth-of-type(1) {
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.starframe dt:nth-of-type(3),
+.starframe dt:nth-of-type(5),
+.starframe dt:nth-of-type(7) {
+  clear: both !important
+}
+
+.starframe dt {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
